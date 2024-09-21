@@ -136,7 +136,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 currentMarker.remove();
             }
             currentMarker = mMap.addMarker(new MarkerOptions().position(myPosition).title("My Location"));
-            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(myPosition, 17));
+            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(myPosition, 16));
         }
 
         lat.setText(""+s_lat);
